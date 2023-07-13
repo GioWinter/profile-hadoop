@@ -476,7 +476,7 @@ The Profiler consists of a simple shell script, [profiler.sh](Profiler/profiler.
 It is recommended to run the first execution manualy to make sure correct configuration values.
 Execute the following on the edge node or a host that can reach the YARN Resource Manager or Ambari or CM.
 
-1. git clone -b main https://github.com/databricks-migrations/hadoop-profiler.git
+1. git clone -b main https://github.com/GioWinter/profiler-hadoop.git
 2. cd Profiler/Profiler
 3. Update [profiler.conf](Profiler/profiler.conf) to required settings depending on your Hadoop distribution. The code automatically determines if its an Initial or Incremental Extract.
 4. Password Encryption:  
