@@ -4,7 +4,7 @@
 Hadoop Profiler is a Migration Assessment Tool to profile and generate metrics out of YARN (which is the primary resource management and scheduling tech on Hadoop). These metrics could be useful to understand  applications that are running in an hadoop environment and generate insights into migration strategies.
 
 >### 2. Overview
-The Profiler consists of a simple shell script, [profiler.sh](Profiler/profiler.sh) which extracts data from YARN, Ambari or Cloudera Manager. This script takes required configuration values from a configuration file, [profiler.conf](Profiler/profiler.conf) which needs to be updated with required values before the execution.
+The Profiler consists of a simple shell script, profiler.sh which extracts data from YARN, Ambari or Cloudera Manager. This script takes required configuration values from a configuration file, profiler.conf which needs to be updated with required values before the execution.
 
 #### Metrics/Information extracted from a Hadoop Cluster
 1. YARN Application execution metrics, Host details and scheduler information.
